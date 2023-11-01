@@ -1,0 +1,69 @@
+/* Public style*/
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+
+.container{
+    width: 80%;
+  margin: auto;
+}
+.navbar{
+    
+    background-color: rgb(12, 1, 1);
+    position: fixed;
+    top: 0;
+   width: 100%;
+}
+
+
+.logo{
+    float: left;
+}
+.logo img{
+    width:50%;
+}
+
+.list{
+    float: right;
+   
+}
+
+.list ul  li{
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+.produats{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(166, 0, 255);
+padding: 10px;
+}
+.produat{
+    float: left;
+   width: 33.33%;
+padding: 10px;
+   
+ 
+}
+.produat img{
+    display: block;
+    width: 100%;
+   
+    
+
+}
